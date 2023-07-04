@@ -1,0 +1,27 @@
+Name: Violet
+Size: 5306250
+Maintainer: Erast <applewormdev@gmail.com>
+Package: dr.erast.violet
+Version: 1.1.1
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm
+Filename: ./debs/dr.erast.violet_1.1.1_iphoneos-arm.deb
+Description: The maid for your 📱
+Author: Erast <applewormdev@gmail.com>
+Section: Tweaks
+dev: Erast
+MD5sum: 40cbd5e15d87476e984f4df16b48b93d
+
+Name: deCard
+Size: 17140284
+Maintainer: Erast <applewormdev@gmail.com>
+Package: com.appleworm.decard
+Version: 2.2.0
+Depends: firmware (>= 13.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.appleworm.decard_2.2.0-1+debug_iphoneos-arm.deb
+Description: UI 🍏 pay cards customizer
+Author: AppleWorm <applewormdev@gmail.com>
+Section: Applications
+dev: AppleWorm
+MD5sum: c677c3a6ffb3eb2cff62de66c79cdb46
