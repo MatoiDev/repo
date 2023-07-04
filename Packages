@@ -3,7 +3,7 @@ Size: 5306250
 Maintainer: Erast <applewormdev@gmail.com>
 Package: dr.erast.violet
 Version: 1.1.1
-Depends: mobilesubstrate, ws.hbang.common (>= 1.17), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Depends: mobilesubstrate, firmware (>= 14.0)
 Architecture: iphoneos-arm
 Filename: ./debs/dr.erast.violet_1.1.1_iphoneos-arm.deb
 Description: The maid for your 📱
