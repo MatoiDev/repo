@@ -17,7 +17,7 @@ const App = () => {
                 <NavigationBar />
                 <AutoreverseVideoBackground src={wallpaperVideo} />
                 <Routes>
-                    <Route path="/" exact element={
+                    <Route path="/repo" exact element={
                         <MainPage />
                     } />
                     <Route path="/tweaks" exact element={

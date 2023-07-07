@@ -18,7 +18,7 @@ const NavigationBar = () => {
     return (
         <>
             <Nav>
-                <NavLink to="/">
+                <NavLink to="/repo">
 
                     <DotLottiePlayer
                         src="https://assets4.lottiefiles.com/packages/lf20_mVyNF7c9vr.json"
@@ -33,7 +33,7 @@ const NavigationBar = () => {
                     <MenuContainer menuOpen={menuOpen}>
                         <MenuItems>
 
-                            <NavLink to="/" axtiveStyle onClick={handleMenuToggle} style={{marginBottom: "150px"}}>
+                            <NavLink to="/repo" axtiveStyle onClick={handleMenuToggle} style={{marginBottom: "150px"}}>
                                 <h1 style={{fontSize: "72px"}}>Main</h1>
                             </NavLink>
 
