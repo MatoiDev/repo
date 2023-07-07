@@ -1,0 +1,151 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    margin-top: -160px;
+
+}
+
+.container {
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left {
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: url("/src/assets/Avatar.jpg") no-repeat center / cover ;
+
+}
+
+.right {
+
+    width: 50%;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+
+}
+
+.horizontal-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    bottom: 64px;
+    right: -32px;
+    left: 32px;
+    position: absolute;
+
+}
+
+.outlined-button {
+
+    background-color: transparent;
+    color: gray;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 40%;
+    margin-bottom: 0;
+    margin-right: 32px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+.outlined-button:hover {
+
+    color: white;
+    border: 2px solid white;
+
+}
+
+.filled-button {
+
+    border: none;
+    background-color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+.filled-button:hover { background-color: #8770c0; }
+
+/*@media only screen and (min-width: 768px) {*/
+/*    .container .horizontal-container {*/
+/*        flex-direction: column;*/
+/*        margin-top: -60px;*/
+/*    }*/
+/*}*/
+
+
+@media only screen and (max-width: 768px) {
+
+    .section {
+        min-height: 180vh;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: -60px;
+    }
+
+    .horizontal-container {
+        flex-direction: column;
+        left: 12px;
+    }
+
+    .outlined-button {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .left {
+        width: 200px;
+        height: 200px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .outlined-button {
+        width: 90%;
+    }
+
+    .filled-button {
+        width: 90%;
+    }
+
+}
+
