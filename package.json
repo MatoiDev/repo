@@ -2,6 +2,7 @@
   "name": "repo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://matoidev.github.io/repo/",
   "dependencies": {
     "@dotlottie/react-player": "^1.0.0",
     "@lottiefiles/lottie-player": "^2.0.2",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
