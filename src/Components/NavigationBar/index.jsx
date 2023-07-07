@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from 'react'
 import {Nav, NavLink, Bars, NavMenu, MenuContainer, MenuItems, CloseButton} from "./NavigationBarElements";
 import { DotLottiePlayer } from '@dotlottie/react-player';
+import { useMediaQuery } from 'react-responsive';
 import '@dotlottie/react-player/dist/index.css';
 
 const NavigationBar = () => {
@@ -14,17 +15,18 @@ const NavigationBar = () => {
     const [toggleAnimation, setAnimationStatus] = useState(true);
 
     setInterval(() => setAnimationStatus(!toggleAnimation), 5000);
+    const isMobile = useMediaQuery({ maxWidth: 768 });
 
     return (
         <>
             <Nav>
-                <NavLink to="/repo">
+                <NavLink to="/repo" isMobile={{isMobile}}>
 
                     <DotLottiePlayer
                         src="https://assets4.lottiefiles.com/packages/lf20_mVyNF7c9vr.json"
                         loop
                         autoplay={toggleAnimation}
-                        style={{ height: '100%', width: '100%' }}
+                        style={{ height: '60px', width: '60px' }}
                     />
 
                 </NavLink>

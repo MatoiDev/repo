@@ -1,16 +1,15 @@
 import {styled, keyframes} from 'styled-components';
 import {NavLink as Link} from "react-router-dom";
 import {FaBars} from "react-icons/fa";
+import {useMediaQuery} from "react-responsive";
 
 
 export const Nav = styled.nav`
     background: #1c1c1e;
-    // position: fixed;
     height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-        align-items: leading;
-    justify-content: space-between;
-    padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
  `;
 
@@ -23,16 +22,19 @@ export const NavLink = styled(Link)`
     height: 100%;
     cursor: pointer;
     font-weight: normal;
-    left:0;
+    margin-left: ${({ isMobile }) => (isMobile ? '0px' : '16px')};
+    
     &.active {
         color: #8770c0;
         font-weight: bolder;
     }
-     &:hover {
-      color: #8770c0;
-      font-weight: bolder;
+     
+    &:hover {
+        color: #8770c0;
+        font-weight: bolder;
     }
 `;
+
 
 export const Bars = styled(FaBars)`
     display: none;
@@ -56,12 +58,13 @@ export const NavMenu = styled.div `
     display: flex;
     align-items: center;
     margin-right: 24px;
-    
+    margin-left: auto;
+    right: 0;
     
     @media screen and (max-width: 768px) {
         display: none;
     }
-`
+`;
 
 export const NavBtn = styled.nav`
     display: flex;
@@ -146,5 +149,6 @@ export const CloseButton = styled.button`
   cursor: pointer;
   
 `;
+
 
 
