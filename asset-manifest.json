@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/repo/static/css/main.138d85ab.css",
-    "main.js": "/repo/static/js/main.bbb720ac.js",
+    "main.js": "/repo/static/js/main.06f5c9f5.js",
     "static/media/wallpaper.mp4": "/repo/static/media/wallpaper.0e267133fa0011df6bda.mp4",
     "static/media/repologo.png": "/repo/static/media/repologo.7d8a123ab8da462d8da1.png",
     "static/media/cydia.png": "/repo/static/media/cydia.67667b3df6752fa50cfe.png",
@@ -9,10 +9,10 @@
     "static/media/sileo.png": "/repo/static/media/sileo.fea533a3ba6bf517330f.png",
     "index.html": "/repo/index.html",
     "main.138d85ab.css.map": "/repo/static/css/main.138d85ab.css.map",
-    "main.bbb720ac.js.map": "/repo/static/js/main.bbb720ac.js.map"
+    "main.06f5c9f5.js.map": "/repo/static/js/main.06f5c9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.138d85ab.css",
-    "static/js/main.bbb720ac.js"
+    "static/js/main.06f5c9f5.js"
   ]
 }
