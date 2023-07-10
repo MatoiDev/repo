@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/repo/static/css/main.db7ec319.css",
-    "main.js": "/repo/static/js/main.1afe3f92.js",
+    "main.css": "/repo/static/css/main.36413537.css",
+    "main.js": "/repo/static/js/main.5b048676.js",
     "static/media/wallpaper.mp4": "/repo/static/media/wallpaper.0e267133fa0011df6bda.mp4",
     "static/media/violet.png": "/repo/static/media/violet.9a960a980ccb0570d657.png",
     "static/media/repologo.png": "/repo/static/media/repologo.7d8a123ab8da462d8da1.png",
@@ -11,11 +11,11 @@
     "static/media/notifake.svg": "/repo/static/media/notifake.f86a784b58c157dbccaf85791ebc29da.svg",
     "static/media/sileo.png": "/repo/static/media/sileo.fea533a3ba6bf517330f.png",
     "index.html": "/repo/index.html",
-    "main.db7ec319.css.map": "/repo/static/css/main.db7ec319.css.map",
-    "main.1afe3f92.js.map": "/repo/static/js/main.1afe3f92.js.map"
+    "main.36413537.css.map": "/repo/static/css/main.36413537.css.map",
+    "main.5b048676.js.map": "/repo/static/js/main.5b048676.js.map"
   },
   "entrypoints": [
-    "static/css/main.db7ec319.css",
-    "static/js/main.1afe3f92.js"
+    "static/css/main.36413537.css",
+    "static/js/main.5b048676.js"
   ]
 }
