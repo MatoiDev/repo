@@ -1,0 +1,57 @@
+
+{
+  "1": {
+    "id": "com.appleworm.decard",
+    "name": "deCard",
+    "icon": "decard",
+    "version": "2.2.0",
+    "section": "Applications",
+    "compatibility": {
+      "firmware": {
+        "miniOS": "13.0",
+        "otherVersions": "unsupported"
+      }
+    },
+    "dependencies": ["firmware (>= 13.0)"],
+    "description": "UI \uD83C\uDF4F pay cards customizer",
+    "screenshots": "",
+    "links": ""
+  },
+
+  "2": {
+    "id": "dr.erast.notifake",
+    "name": "Notifake",
+    "icon": "notifake",
+    "version": "1.0.0",
+    "section": "Tweaks",
+    "compatibility": {
+      "firmware": {
+        "miniOS": "7.0",
+        "otherVersions": "unsupported"
+      }
+    },
+    "dependencies": ["mobilesubstrate (>= 0.9.5000)", "firmware (>=7.0)", "com.opa334.altlist", "libactivator (>= 1.8.3)"],
+    "description": "Simple & Powerful tool for creating notifications \uD83D\uDD14",
+    "screenshots": "",
+    "links": ""
+  },
+
+  "3": {
+    "id": "dr.erast.violet",
+    "name": "Violet",
+    "icon": "violet",
+    "version": "1.1.1",
+    "section": "Tweaks",
+    "compatibility": {
+      "firmware": {
+        "miniOS": "14.0",
+        "maxiOS": "14.8.1",
+        "otherVersions": "unsupported"
+      }
+    },
+    "dependencies": ["mobilesubstrate", "ws.hbang.common (>= 1.17)", "firmware (>= 14.0)", "com.mrgcgamer.libgcuniversal"],
+    "description": "The maid for your \uD83D\uDCF1",
+    "screenshots": "",
+    "links": ""
+  }
+}

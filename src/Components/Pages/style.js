@@ -32,24 +32,12 @@ function PreviewContent() {
 
 export default PreviewContent;
 
-
-export const PageTitleForDebug = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 80;
-`;
-
-export const HStack = styled.div`
-    display: flex;
-    flex-direction: row;
- `;
-
 export const CoverText = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 80px;
+    top:0px;
+    padding-top: 160px;
     display: flex;
     flex-direction: horizontal;
     justify-content: center;
@@ -64,21 +52,11 @@ export const Overlay = styled.div`
     width: 100%;
     height: 100%;
     left: 0;
-    top: 80px;
-    margin-bottom: 0;
+    right: 0;
+    top: 0px;
     background-color: rgba(0, 0, 0, .7);  
+    z-index: 0;
 `;
-
-export const Avatar = styled.img`
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    position: absolute;
-`;
-
-
-
-
 export function AnimatedText() {
 
     const el = React.useRef(null);

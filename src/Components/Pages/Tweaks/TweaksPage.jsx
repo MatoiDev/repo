@@ -1,12 +1,18 @@
-import React from "react";
-import {PageTitleForDebug} from "../style";
+import {CoverText, Overlay} from "../style";
+import React, { useEffect, useState } from 'react';
+import {Center} from "./style";
+import data from "../../../data/data.json"
+import Section from "./Section";
 
-const TweaksPage = () => {
+function TweaksPage() {
     return (
-        <PageTitleForDebug>
-            <h1>Tweaks Page</h1>
-        </PageTitleForDebug>
+        <>
+            <Overlay/>
+            <Section data={data}/>
+        </>
     );
 }
 
 export default TweaksPage;
+
+

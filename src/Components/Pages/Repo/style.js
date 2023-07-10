@@ -18,6 +18,7 @@ export const H1 = styled.h1`
   margin-top: 20px;
   margin-bottom: 0px;
   cursor: pointer;
+  
 `;
 
 export  const P = styled.p`

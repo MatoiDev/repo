@@ -8,6 +8,6 @@ export const Video = styled.video `
 
 export const VideoWrapper = styled.div`
     width: 100%;
-    height: 100vh;    
+    height: 100%;    
 `;
 

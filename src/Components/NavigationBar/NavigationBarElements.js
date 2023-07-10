@@ -10,7 +10,9 @@ export const Nav = styled.nav`
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    z-index: 10;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
  `;
 
 export const NavLink = styled(Link)`
@@ -115,27 +117,22 @@ export const slideOut = keyframes`
 
 export const MenuContainer = styled.div`
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8);
   animation: ${({ menuOpen }) => (menuOpen ? slideIn : slideOut)} 0.3s ease-in-out;
   z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  
 `;
 
 export const MenuItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: #fff;
-  height: 100%
-  padding: 500px;
-  justify-content: space-between;
 `;
 
 export const CloseButton = styled.button`

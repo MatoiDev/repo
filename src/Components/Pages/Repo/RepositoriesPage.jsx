@@ -6,6 +6,7 @@ import ZebraImage from "../../../assets/zbra.png"
 import CydiaImage from "../../../assets/cydia.png"
 import SourceButton from "./SourceButton";
 import RepoLogo from "../../../assets/repologo.png"
+import {useHref} from "react-router-dom";
 
 
 const RepositoriesPage = () => {
@@ -13,8 +14,12 @@ const RepositoriesPage = () => {
         <>
             <Overlay/>
             <Center >
-                <Pfp src={RepoLogo} alt="CydiaIcon" width="100" height="100"/>
-                <H1>MatoiDev's repo</H1>
+                <a href={"https://github.com/matoidev/"} style={{textDecoration: "none"}}>
+                    <Pfp src={RepoLogo} alt="CydiaIcon" width="100" height="100"/>
+                </a>
+                <a href={"https://github.com/matoidev/"} style={{textDecoration: "none", alignItems: "center"}}>
+                    <H1>MatoiDev's repo</H1>
+                </a>
                 <P>Change begins where the comfort zone ends.</P>
             </Center>
 

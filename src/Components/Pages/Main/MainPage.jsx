@@ -11,6 +11,7 @@ const MainPage = () => {
     };
 
     return (
+        <body id="no-scroll">
         <div>
             <Overlay/>
             <CoverText>
@@ -22,10 +23,12 @@ const MainPage = () => {
                 </section>
             </CoverText>
             <div className="horizontal-container">
-                    <button className="outlined-button" onClick={() => handleClick("/tweaks")}>My Works</button>
-                    <button className="filled-button" onClick={() => handleClick("/install")}>Add Repo</button>
+                <button className="outlined-button" onClick={() => handleClick("/tweaks")}>My Works</button>
+                <button className="filled-button" onClick={() => handleClick("/install")}>Add Repo</button>
             </div>
         </div>
+        </body>
+
     );
 }
 

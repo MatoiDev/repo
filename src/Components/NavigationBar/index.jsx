@@ -35,7 +35,7 @@ const NavigationBar = () => {
                     <MenuContainer menuOpen={menuOpen}>
                         <MenuItems>
 
-                            <NavLink to="/repo" axtiveStyle onClick={handleMenuToggle} style={{marginBottom: "150px"}}>
+                            <NavLink to="/repo" axtiveStyle onClick={handleMenuToggle} style={{paddingBottom: "160px"}}>
                                 <h1 style={{fontSize: "72px"}}>Main</h1>
                             </NavLink>
 

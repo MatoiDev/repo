@@ -1,0 +1,15 @@
+.BackgroundContainer {
+    width: auto;
+    height: 120px;
+    display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(28, 28, 30, 0.95);
+}
+
+.BackgroundContainer:hover {
+    background-color: rgba(56, 56, 60, 0.95);
+
+}
