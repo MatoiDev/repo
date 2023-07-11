@@ -1,15 +1,17 @@
 import React from 'react';
 import "./style.css"
-import {BackgroundContainer} from "./style.js";
+import useRXImageLoader from "../../../hooks/useRXImageLoader";
 
 const HorizontalContainer = ({src, headerText, footerText}) => {
+
+    const { image } = useRXImageLoader(src);
     return (
         <div
             id="BackgroundContainer"
             className="BackgroundContainer"
         >
             <img
-                src={src}
+                src={image}
                 alt="image"
                 style={{ width: '80px', height: '80px', marginLeft: "16px" }}
             />

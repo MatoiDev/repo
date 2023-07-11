@@ -1,18 +1,18 @@
 import {styled, keyframes} from 'styled-components';
 import {NavLink as Link} from "react-router-dom";
 import {FaBars} from "react-icons/fa";
-import {useMediaQuery} from "react-responsive";
 
 
 export const Nav = styled.nav`
     background: #1c1c1e;
     height: 80px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     display: flex;
     position: absolute;
     width: 100%;
     z-index: 100;
+  
  `;
 
 export const NavLink = styled(Link)`
@@ -61,6 +61,7 @@ export const NavMenu = styled.div `
     align-items: center;
     margin-right: 24px;
     margin-left: auto;
+    top:0;
     right: 0;
     
     @media screen and (max-width: 768px) {

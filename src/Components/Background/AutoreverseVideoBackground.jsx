@@ -5,10 +5,9 @@ import {
 
 } from "./style";
 
+
 const AutoreverseVideoBackground= ({src}) => {
     const videoRef = useRef(null);
-
-
     useEffect(() => {
         const video = videoRef.current;
 
@@ -25,14 +24,18 @@ const AutoreverseVideoBackground= ({src}) => {
         };
     }, []);
 
-    return (
-        <div>
-            <VideoWrapper>
-                <Video ref={videoRef} src={src} loop autoPlay muted/>
-            </VideoWrapper>
-        </div>
 
-    );
+
+        return (
+            <div>
+                <VideoWrapper alignBottom={true}>
+                    <Video ref={videoRef} src={src} loop autoPlay muted playsInline/>
+                </VideoWrapper>
+            </div>
+
+        );
+
+
 };
 
 export default AutoreverseVideoBackground;

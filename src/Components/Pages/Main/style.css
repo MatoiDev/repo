@@ -38,7 +38,7 @@ section {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background: url("/src/assets/Avatar.jpg") no-repeat center / cover ;
+    background: url("https://i.pinimg.com/originals/fc/91/6d/fc916da2dbe349dd77565ee0ecf9480a.png") no-repeat center / cover ;
 
 }
 
@@ -109,14 +109,13 @@ section {
 
 @media screen and (max-height: 771px) {
 
-
     .left {
 
         width: 125px;
         height: 125px;
         margin-top: 30%;
         border-radius: 50%;
-        background: url("/src/assets/Avatar.jpg") no-repeat center / cover ;
+        animation: 'gradientAnimation 1s ease-in-out infinite';
 
     }
 

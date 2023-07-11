@@ -1,7 +1,11 @@
 import React from "react";
-import PreviewContent, {Overlay, CoverText} from "../style";
+import {Overlay, CoverText} from "../style";
 import "./style.css"
-import {Link, useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import PreviewContent from "./PreviewContent";
+import useRXImageLoader from "../../../hooks/useRXImageLoader";
+
+
 
 const MainPage = () => {
     const navigate = useNavigate();
@@ -10,6 +14,8 @@ const MainPage = () => {
         navigate(path);
     };
 
+    const { image, error } = useRXImageLoader("https://i.pinimg.com/originals/fc/91/6d/fc916da2dbe349dd77565ee0ecf9480a.png");
+
     return (
         <body id="no-scroll">
         <div>
@@ -17,7 +23,9 @@ const MainPage = () => {
             <CoverText>
                 <section>
                     <div className="container">
-                        <div className="left"/>
+                        <div
+                            className="left"
+                            style={{background: `${ error ? `linear-gradient(-45deg, #eee, #ddd)`: image} no-repeat center / cover`}}/>
                         <PreviewContent/>
                     </div>
                 </section>

@@ -3,7 +3,7 @@
   "1": {
     "id": "com.appleworm.decard",
     "name": "deCard",
-    "icon": "decard",
+    "icon": "https://i.pinimg.com/originals/6d/1d/c5/6d1dc54b57223bea8707cb6f894322c8.png",
     "version": "2.2.0",
     "section": "Applications",
     "compatibility": {
@@ -21,7 +21,7 @@
   "2": {
     "id": "dr.erast.notifake",
     "name": "Notifake",
-    "icon": "notifake",
+    "icon": "https://i.pinimg.com/originals/25/ee/10/25ee109b8c89b8fe90d514108e90b4e5.png",
     "version": "1.0.0",
     "section": "Tweaks",
     "compatibility": {
@@ -39,7 +39,7 @@
   "3": {
     "id": "dr.erast.violet",
     "name": "Violet",
-    "icon": "violet",
+    "icon": "https://i.pinimg.com/originals/0d/18/86/0d1886307ec78529c7cfa1cb68960410.png",
     "version": "1.1.1",
     "section": "Tweaks",
     "compatibility": {

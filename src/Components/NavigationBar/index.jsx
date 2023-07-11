@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {Nav, NavLink, Bars, NavMenu, MenuContainer, MenuItems, CloseButton} from "./NavigationBarElements";
 import { DotLottiePlayer } from '@dotlottie/react-player';
 import { useMediaQuery } from 'react-responsive';
@@ -35,7 +35,7 @@ const NavigationBar = () => {
                     <MenuContainer menuOpen={menuOpen}>
                         <MenuItems>
 
-                            <NavLink to="/repo" axtiveStyle onClick={handleMenuToggle} style={{paddingBottom: "160px"}}>
+                            <NavLink to="/repo" axtiveStyle onClick={handleMenuToggle} style={{paddingBottom: "80px"}}>
                                 <h1 style={{fontSize: "72px"}}>Main</h1>
                             </NavLink>
 

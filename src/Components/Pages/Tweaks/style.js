@@ -1,16 +1,5 @@
 import styled from "styled-components";
-import decard from "../../../assets/decard.svg"
-import violet from "../../../assets/violet.png"
-import notifake from "../../../assets/notifake.svg"
 
-
-export function fetchImage(byPath) {
-    switch (byPath) {
-        case "decard": return decard
-        case "violet": return violet
-        case "notifake": return notifake
-    }
-}
 
 export const Center = styled.div`
   position: absolute;
