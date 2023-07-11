@@ -25,3 +25,17 @@ Author: AppleWorm <applewormdev@gmail.com>
 Section: Applications
 dev: AppleWorm
 MD5sum: c677c3a6ffb3eb2cff62de66c79cdb46
+
+Name: Notifake
+Size: 253592
+Maintainer: Erast <applewormdev@gmail.com>
+Package: dr.erast.notifake
+Version: 1.0.0
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/dr.erast.notifake_1.0.0_iphoneos-arm
+Description: Simple & Powerful tool for creating notifications 🔔
+Author: Erast <applewormdev@gmail.com>
+Section: Tweaks
+dev: Erast
+MD5sum: 7241f813395cb5536f08141162f3e278
