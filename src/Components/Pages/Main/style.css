@@ -6,6 +6,48 @@
 
 }
 
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 1 !important;
+}
+
+
+
+.animated-element {
+    animation-fill-mode: forwards;
+}
+
 .no-scroll {
     overflow: hidden;
 }
@@ -106,8 +148,46 @@ section {
 
 .filled-button:hover { background-color: #8770c0; }
 
-
 @media screen and (max-height: 771px) {
+
+    .left {
+
+        width: 50vh;
+        height: 50vh;
+
+
+    }
+    .filled-button {
+
+        padding: 10px 8px;
+        font-size: 12px;
+        width: 40%;
+        border-radius: 10px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+
+    }
+
+    .outlined-button {
+
+        border: 2px solid gray;
+        padding: 8px 8px;
+        font-size: 12px;
+        width: 40%;
+        margin-bottom: 0;
+        border-radius: 10px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+
+    }
+
+    .horizontal-container {
+        bottom: 5vh;
+    }
+
+
+}
+@media screen and (max-height: 771px) and (max-width: 768px) {
 
     .left {
 

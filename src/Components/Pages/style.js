@@ -25,7 +25,7 @@ export const Overlay = styled.div`
     left: 0;
     right: 0;
     top: 0px;
-    background-color: rgba(0, 0, 0, .7);  
+    background-color: ${props => props.isMain ? `#1c1c1e` : `rgba(0, 0, 0, .7)`}; 
     z-index: 0;
 `;
 export function AnimatedText() {
@@ -54,4 +54,18 @@ export function AnimatedText() {
     );
 }
 
+const Separator = styled.div`
+  width: calc(100% - ${props => props.isMobile ? "32px" : "64px"});
+  height: 1px;
+  background-color: gray;
+  margin-left: ${props => props.isMobile ? "16px" : "32px"};
+  margin-right: ${props => props.isMobile ? "16px" : "32px"};
+  margin-top: 490px;
+  position: absolute;
+`;
 
+const HorizontalSeparator = ({isMobile}) => {
+    return <Separator isMobile={isMobile}/>;
+};
+
+export default HorizontalSeparator;

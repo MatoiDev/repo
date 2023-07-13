@@ -20,7 +20,7 @@ const ImageComponent = ({ imageUrl }) => {
         return <div>Error: {error.message}</div>;
     }
 
-    return <img src={image} alt="Loaded" />;
+    return <img alt="" src={image} />;
 };
 
 export default ImageComponent;

@@ -4,16 +4,16 @@ import useRXImageLoader from "../../../hooks/useRXImageLoader";
 
 const HorizontalContainer = ({src, headerText, footerText}) => {
 
-    const { image } = useRXImageLoader(src);
+    const {image} = useRXImageLoader(src);
     return (
         <div
             id="BackgroundContainer"
             className="BackgroundContainer"
         >
             <img
+                alt=""
                 src={image}
-                alt="image"
-                style={{ width: '80px', height: '80px', marginLeft: "16px" }}
+                style={{width: '80px', height: '80px', marginLeft: "16px"}}
             />
             <div
                 style={{
@@ -31,7 +31,7 @@ const HorizontalContainer = ({src, headerText, footerText}) => {
         >
          {headerText}
         </span>
-                <span style={{ color: 'gray' }}>{footerText}</span>
+                <span style={{color: 'gray'}}>{footerText}</span>
             </div>
         </div>
     );

@@ -7,6 +7,7 @@ import RepositoriesPage from "./Components/Pages/Repo/RepositoriesPage";
 import AutoreverseVideoBackground from "./Components/Background/AutoreverseVideoBackground";
 import wallpaperVideo from "./assets/wallpaper.mp4"
 import './App.css'
+import TweakDetails from "./Components/Pages/TweakDetails/TweakDetails";
 
 const App = () => {
 
@@ -25,6 +26,9 @@ const App = () => {
                     } />
                     <Route path="/install" exact element={
                         <RepositoriesPage />
+                    } />
+                    <Route path="/tweak/:id" exact element={
+                        <TweakDetails />
                     } />
                 </Routes>
             </Router>

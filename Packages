@@ -33,7 +33,7 @@ Package: dr.erast.notifake
 Version: 1.0.0
 Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
-Filename: ./debs/dr.erast.notifake_1.0.0_iphoneos-arm
+Filename: ./debs/dr.erast.notifake_1.0.0_iphoneos-arm.deb
 Description: Simple & Powerful tool for creating notifications 🔔
 Author: Erast <applewormdev@gmail.com>
 Section: Tweaks

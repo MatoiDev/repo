@@ -17,7 +17,7 @@ const RepositoriesPage = () => {
             <Overlay/>
             <Center>
                 <a href={"https://github.com/matoidev/"} style={{textDecoration: "none"}}>
-                    <Pfp src={avatarImage} alt="CydiaIcon" width="100" height="100"/>
+                    <Pfp src={avatarImage} width="100" height="100"/>
                 </a>
                 <a href={"https://github.com/matoidev/"} style={{textDecoration: "none", alignItems: "center"}}>
                     <H1>MatoiDev's repo</H1>

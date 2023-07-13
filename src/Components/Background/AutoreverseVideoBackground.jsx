@@ -24,12 +24,11 @@ const AutoreverseVideoBackground= ({src}) => {
         };
     }, []);
 
-
-
+    const link = window.location.pathname
         return (
             <div>
                 <VideoWrapper alignBottom={true}>
-                    <Video ref={videoRef} src={src} loop autoPlay muted playsInline/>
+                    <Video isNumeric={!isNaN(link.split("/")[2])} ref={videoRef} src={src} loop autoPlay muted playsInline/>
                 </VideoWrapper>
             </div>
 
